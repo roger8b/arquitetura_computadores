@@ -40,6 +40,10 @@
 									<h3><?php echo php_uname() ?></h3>
 								</p>
 
+								<?php 
+								$uso = sys_getloadavg();
+								echo $uso[0]; ?>
+
 								
 
 								
