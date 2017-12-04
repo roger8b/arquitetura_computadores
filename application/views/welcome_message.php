@@ -36,13 +36,16 @@
 									<h3><?php echo $nome; ?></h3>
 									<h2>Endereço IP</h2>
 									<h3><?php echo $ip; ?></h3>
+									<h2>Descrição da VM</h2>
+									<h3><?php echo php_uname() ?></h3>
 								</p>
+
+								
+
 								
 							</section>
 
-							<?php print_r(phpinfo(INFO_GENERAL));
-                            
-							 ?>
+							
 
 						<!-- Intro -->
 							
