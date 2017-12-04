@@ -22,11 +22,13 @@
 
 						<!-- Logo -->
 							<h1><a href="index.html">Arquitetura de Computadores</a></h1>
+							<h2>Roger Martins da Silva</h2>
+							<h2>RA: 916112468</h2>
 						<!-- Banner -->
 							<section id="banner">
 								<header>
-									<h2>Maquina virtual</h2>
-									<p>Esta aplicação está funcionando em uma máquina virtual criada no AWS Lightsail</p>
+									<h2>Atividade prática de Computação em Nuvem</h2>
+									<p>Esta aplicação web está funcionando em uma máquina virtual criada no <a href="https://amazonlightsail.com">AWS Lightsail</a>
 								</header>
 							</section>
 
@@ -38,26 +40,27 @@
 									 ?>
 									<h1>Dados da VM</h1>
 									<h2>Nome da Maquina</h2>
-									<h3><?php echo $nome; ?></h3>
+									<p><?php echo $nome; ?></p>
 									<h2>Endereço IP</h2>
-									<h3><?php echo $ip; ?></h3>
-									<h2>Descrição da VM</h2>
+									<p><?php echo $ip; ?></p>
+									<p>Descrição da VM</p>
 									<h3><?php echo php_uname() ?></h3>
-									<h2>Processador</h2>
+									<p>Processador</p>
 									<h3><?php print_r($processador[4]) ?></h3>
-									<h2>CPU MHz</h2>
+									<p>CPU MHz</p>
 									<h3><?php print_r($processador[7]) ?></h3>
-									<h2>Cache</h2>
+									<p>Cache</p>
 									<h3><?php print_r($processador[8]) ?></h3>
-									<h2>Memória total</h2>
+									<p>Memória total</p>
 									<h3><?php print_r($memoria[0]) ?></h3>
-									<h2>Memória Livre</h2>
+									<p>Memória Livre</p>
 									<h3><?php print_r($memoria[1]) ?></h3>
 
 								</p>
 							</section>
 
-							
+							<?php 
+							pre ?>
 
 						<!-- Intro -->
 							
@@ -71,38 +74,6 @@
 			<!-- Footer -->
 				<div id="footer-wrapper">
 					<section id="footer" class="container">
-						<div class="row">
-
-							<div class="4u 12u(mobile)">
-								<section>
-									<header>
-										<h2>Informações</h2>
-									</header>
-									<ul class="social">
-										<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-										<li><a class="icon fa-linkedin" href="#"><span class="label">LinkedIn</span></a></li>
-										<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
-									</ul>
-									<ul class="contact">
-										<li>
-											<h3>Nome</h3>
-											<p>
-												Roger Martins da Silva
-											</p>
-										</li>
-										<li>
-											<h3>Mail</h3>
-											<p><a href="#">roger.8b@gmail.com</a></p>
-										</li>
-										<li>
-											<h3>RA</h3>
-											<p>916112468</p>
-										</li>
-									</ul>
-								</section>
-							</div>
-							
-						</div>
 						<div class="row">
 							<div class="12u">
 								<!-- Copyright -->
