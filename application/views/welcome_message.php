@@ -27,10 +27,22 @@
 								<header>
 									<h2>Maquina virtual</h2>
 									<p>Esta aplicação está funcionando em uma máquina virtual criada no AWS Lightsail</p>
-									<?php echo $nome; ?>
-									<?php echo $ip; ?>
 								</header>
 							</section>
+
+							<section>
+								<p>
+									<h2>Nome da Maquina</h2>
+									<h3><?php echo $nome; ?></h3>
+									<h2>Endereço IP</h2>
+									<h3><?php echo $ip; ?></h3>
+								</p>
+								
+							</section>
+
+							<?php print_r(phpinfo(INFO_GENERAL));
+                            
+							 ?>
 
 						<!-- Intro -->
 							
