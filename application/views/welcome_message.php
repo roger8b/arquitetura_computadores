@@ -36,6 +36,7 @@
                                      $processador = file('/proc/cpuinfo');
                                      $memoria = file('/proc/meminfo');
 									 ?>
+									<h1>Dados da VM</h1>
 									<h2>Nome da Maquina</h2>
 									<h3><?php echo $nome; ?></h3>
 									<h2>Endereço IP</h2>
@@ -47,24 +48,13 @@
 									<h2>CPU MHz</h2>
 									<h3><?php print_r($processador[7]) ?></h3>
 									<h2>Cache</h2>
-									<h3><?php print_r($processador[8]) ?>kb</h3>
+									<h3><?php print_r($processador[8]) ?></h3>
 									<h2>Memória total</h2>
-									<h3><?php print_r($memoria[0]) ?>kb</h3>
+									<h3><?php print_r($memoria[0]) ?></h3>
 									<h2>Memória Livre</h2>
-									<h3><?php print_r($memoria[1]) ?>kb</h3>
+									<h3><?php print_r($memoria[1]) ?></h3>
 
 								</p>
-
-								<?php 
-								
-                                $proc_details = $file[1];
-                                print_r($proc_details);
-
-								 ?>
-
-								
-
-								
 							</section>
 
 							
