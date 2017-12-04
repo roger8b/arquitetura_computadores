@@ -28,7 +28,8 @@
 							<section id="banner">
 								<header>
 									<h2>Atividade prática de Computação em Nuvem</h2>
-									<p>Esta aplicação web está funcionando em uma máquina virtual criada no <a href="https://amazonlightsail.com">AWS Lightsail</a>
+									<p>Esta aplicação web foi criada em PHP e hospedada em uma máquina virtual criada no <br> <a href="https://amazonlightsail.com" target="_blank">AWS Lightsail</a></p>
+									<p>Para que esta pagina funcione foi necessario a instalação e configuração da pilha <br>PHP + Apache + SQL no Ubuntu Server</p>
 								</header>
 							</section>
 

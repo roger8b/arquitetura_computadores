@@ -1674,10 +1674,14 @@
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #f7f7f7;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
+			}
+
+			#banner header a{
+				color: #f7f7f7;
 			}
 
 /* Wrappers */
