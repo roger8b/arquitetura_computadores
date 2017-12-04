@@ -34,33 +34,36 @@
 
 							<section>
 								<p>
+									<style type="text/css">
+										.fonte {
+											font-size: 1.5em;
+											margin-bottom: 5px;
+										}
+									</style>
 									<?php 
                                      $processador = file('/proc/cpuinfo');
                                      $memoria = file('/proc/meminfo');
 									 ?>
 									<h1>Dados da VM</h1>
 									<h2>Nome da Maquina</h2>
-									<p><?php echo $nome; ?></p>
+									<p class="fonte"><?php echo $nome; ?></p>
 									<h2>Endereço IP</h2>
-									<p><?php echo $ip; ?></p>
-									<p>Descrição da VM</p>
-									<h3><?php echo php_uname() ?></h3>
-									<p>Processador</p>
-									<h3><?php print_r($processador[4]) ?></h3>
-									<p>CPU MHz</p>
-									<h3><?php print_r($processador[7]) ?></h3>
-									<p>Cache</p>
-									<h3><?php print_r($processador[8]) ?></h3>
-									<p>Memória total</p>
-									<h3><?php print_r($memoria[0]) ?></h3>
-									<p>Memória Livre</p>
-									<h3><?php print_r($memoria[1]) ?></h3>
+									<p class="fonte"><?php echo $ip; ?></p>
+									<h2>Descrição da VM</h2>
+									<p class="fonte"><?php echo php_uname() ?></p>
+									<h2>Processador</h2>
+									<p class="fonte"><?php print_r($processador[4]) ?></p>
+									<h2>CPU MHz</h2>
+									<p class="fonte"><?php print_r($processador[7]) ?></p>
+									<h2>Cache</h2>
+									<p class="fonte"><?php print_r($processador[8]) ?></p>
+									<h2>Memória total</h2>
+									<p class="fonte"><?php print_r($memoria[0]) ?></p>
+									<h2>Memória Livre</h2>
+									<p class="fonte"><?php print_r($memoria[1]) ?></p>
 
 								</p>
 							</section>
-
-							<?php 
-							pre ?>
 
 						<!-- Intro -->
 							
