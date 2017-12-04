@@ -41,8 +41,10 @@
 								</p>
 
 								<?php 
-								$uso = sys_getloadavg();
-								echo $uso[0]; ?>
+								$file = file('/proc/cpuinfo');
+                                $proc_details = $file[4];
+                                print_r($file[4]);
+								 ?>
 
 								
 
