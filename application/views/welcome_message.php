@@ -43,9 +43,9 @@
 								<?php 
 								$file = file('/proc/cpuinfo');
                                 $proc_details = $file[4];
-                                print_r($file[4]);
+                                print_r($file[1]);
 
-                                print_r($proc_details);
+                                print_r($file);
 								 ?>
 
 								
